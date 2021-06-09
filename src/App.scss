@@ -1,6 +1,4 @@
-/* ==========================================================================
-   LETS BUILD TODOIST
-   ========================================================================== */
+
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,700,900');
 
 // General Settings
@@ -274,6 +272,10 @@ header {
   overflow-y: hidden;
   border-right: $generic-border;
   background-color: #fafafa;
+  overflow-y: scroll;
+  // max-height: auto;
+  
+  
   
 
   @include mq('900px') {
@@ -432,6 +434,8 @@ header {
     }
   }
 }
+
+
 
 /* Show Confirm Delete
   ============================================ */
